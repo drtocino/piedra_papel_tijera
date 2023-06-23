@@ -2,6 +2,7 @@
 Proyecto hecho en *php* con arquitectura *MVC* como requisito de una materia de Ing de Sistemas 🙃👓
 
 Un solo jugador contra un resultado aleatorio
+
 ---
 
 ### Notas
