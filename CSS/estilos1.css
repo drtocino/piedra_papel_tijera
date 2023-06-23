@@ -1,0 +1,122 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: 'DatalegreyaDot';
+    font-weight: lighter;
+    font-style: normal;*/
+}
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(140,122,122,1) 0%, rgba(175,135,124,1) 65%, rgba(175,135,124,1) 100%) fixed;
+    background: url("http://localhost/PiedraPapelTijera/CSS/background-image/shattered-island.gif");
+    /*background-size: cover;*/
+    color: #ffffff;
+}
+img{
+    height:100px;
+    width:100px;
+    padding: 10px;
+    border-radius: 100px;
+}
+img:hover{
+    background-color: rgb(204, 204, 204);
+    border-radius: 100px;
+    box-shadow: -10px 15px 30px -12px black;
+}
+.vs-box{
+    border-radius: 10px;
+    background-color: #dfdfdf;
+    color: rgb(24, 24, 24);
+
+    width: 350px;
+    box-shadow: -10px 15px 30px -12px black;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,200%);
+}
+.score-box{
+    border-radius: 10px;
+    background-color: #dfdfdf;
+    color: rgb(24, 24, 24);
+
+    width: 50px;
+    box-shadow: -10px 15px 30px -12px black;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-600%,600%);
+}
+.main-header{
+    border-radius: 5px;
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(20, 20, 20) 65%, rgb(0, 0, 0) 100%) fixed;
+    width: 400px;
+    /*position: relative;*/
+    display: inline-block;
+    box-shadow: -10px 15px 30px -12px black;
+}
+.player{
+    border-radius: 10px;
+    background-color: #dfdfdf;
+    color: rgb(24, 24, 24);
+
+    width: 300px;
+    box-shadow: -10px 15px 30px -12px black;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-120%,10%);
+}
+.rob{
+    border-radius: 10px;
+    background-color: #dfdfdf;
+    color: rgb(24, 24, 24);
+
+    width: 300px;
+    box-shadow: -10px 15px 30px -12px black;
+    position: absolute;
+    display: inline-block;
+    transform: translate(22%,10%);
+}
+.box-header{
+    position: relative;
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(20, 20, 20) 65%, rgb(0, 0, 0) 100%) fixed;
+    color: #dfdfdf;
+}
+/* .main-boxes{
+    /*top: 50%;
+    /*transition: all;
+    transition-delay: 2ms;
+    background-color: #dbe2e4;
+    background: linear-gradient(90deg, rgb(180, 180, 180) 0%, rgb(139, 139, 139) 50%, rgb(180, 180, 180) 100%);
+    color: #242424;
+    width: 1000px;
+    position: absolute;
+    transform: none;
+    border-radius: 5px;
+    box-shadow: -10px 15px 30px -12px black;
+    display: inline-block;
+    transform: translate(-50%,10%);
+}
+.main-header{
+    width: fit-content;
+    padding:20px 0px 20px 0px;
+    background-color: #004280;
+    background: linear-gradient(0deg, rgb(155, 86, 7) 0%, rgb(122, 69, 8) 100%);
+    width: 100%;
+    color: #dddddd;
+    position: relative;
+    border-radius: 5px 5px 0px 0px;
+}
+.container{
+    top: 20%;
+    left: 50%;
+    background: linear-gradient(90deg, rgb(180, 180, 180) 0%, rgb(139, 139, 139) 50%, rgb(180, 180, 180) 100%);
+    color: #242424;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*position: relative;
+    /*transform: translate(-50%,50%); 
+    border-radius: 0px 0px 5px 5px;
+    
+}
+*/
